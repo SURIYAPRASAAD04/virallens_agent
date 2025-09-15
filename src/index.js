@@ -14,7 +14,7 @@ connectDB();
 
 // Configure CORS
 app.use(cors({
-  origin: 'http://localhost:4028',
+  origin: 'https://virallens-agent.netlify.app/',
   credentials: true
 }));
 
